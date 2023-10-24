@@ -9,7 +9,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Administrator</title>
+        <title>Administrador</title>
 
         <!-- Bootstrap Core CSS -->
         <link  rel="stylesheet" href="assets/css/bootstrap.min.css"/>
@@ -46,7 +46,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="">Administrator</a>
+                        <a class="navbar-brand" href="">Administrador</a>
                     </div>
                     <!-- /.navbar-header -->
 
@@ -59,12 +59,12 @@
                                 <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                             </a>
                             <ul class="dropdown-menu dropdown-user">
-                                <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                                <li><a href="#"><i class="fa fa-user fa-fw"></i> Perfil usuario</a>
                                 </li>
-                                <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                                <li><a href="#"><i class="fa fa-gear fa-fw"></i> Configuração</a>
                                 </li>
                                 <li class="divider"></li>
-                                <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                                <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Sair</a>
                                 </li>
                             </ul>
                             <!-- /.dropdown-user -->
@@ -77,22 +77,19 @@
                         <div class="sidebar-nav navbar-collapse">
                             <ul class="nav" id="side-menu">
                                 <li>
-                                    <a href="index.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                                    <a href="index.php"><i class="fa fa-dashboard fa-fw"></i> Painel</a>
                                 </li>
 
                                 <li <?php echo (CURRENT_PAGE == "customers.php" || CURRENT_PAGE == "add_customer.php") ? 'class="active"' : ''; ?>>
-                                    <a href="#"><i class="fa fa-user-circle fa-fw"></i> Customers<span class="fa arrow"></span></a>
+                                    <a href="#"><i class="fa fa-user-circle fa-fw"></i> Clientes<span class="fa arrow"></span></a>
                                     <ul class="nav nav-second-level">
                                         <li>
-                                            <a href="customers.php"><i class="fa fa-list fa-fw"></i>List all</a>
+                                            <a href="customers.php"><i class="fa fa-list fa-fw"></i>Listar tudo</a>
                                         </li>
                                     <li>
-                                        <a href="add_customer.php"><i class="fa fa-plus fa-fw"></i>Add New</a>
+                                        <a href="add_customer.php"><i class="fa fa-plus fa-fw"></i>Adcionar um novo</a>
                                     </li>
                                     </ul>
-                                </li>
-                                <li>
-                                    <a href="admin_users.php"><i class="fa fa-users fa-fw"></i> Users</a>
                                 </li>
                             </ul>
                         </div>

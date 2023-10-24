@@ -20,7 +20,7 @@ if ($del_id && $_SERVER['REQUEST_METHOD'] == 'POST')
     
     if ($status) 
     {
-        $_SESSION['info'] = "Customer deleted successfully!";
+        $_SESSION['info'] = "Cliente excluido com successo!";
         header('location: customers.php');
         exit;
     }

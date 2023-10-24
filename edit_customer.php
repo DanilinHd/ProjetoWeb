@@ -50,7 +50,7 @@ if($edit)
 ?>
 <div id="page-wrapper">
     <div class="row">
-        <h2 class="page-header">Update Customer</h2>
+        <h2 class="page-header">Atualizar Cliente</h2>
     </div>
     <!-- Flash messages -->
     <?php

@@ -18,13 +18,5 @@ echo '<div class="alert alert-danger alert-dismissable">
   unset($_SESSION['failure']);
 }
 
-if(isset($_SESSION['info']))
-{
-echo '<div class="alert alert-info alert-dismissable">
-   		<a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
-    		'. $_SESSION['info'].'
-  	  </div>';
-  unset($_SESSION['info']);
-}
 
  ?>

@@ -61,14 +61,14 @@ include BASE_PATH.'/includes/header.php';
 <div id="page-" class="col-md-4 col-md-offset-4">
 	<form class="form loginform" method="POST" action="authenticate.php">
 		<div class="login-panel panel panel-default">
-			<div class="panel-heading">Please Sign in</div>
+			<div class="panel-heading">Por favor, conecte-se </div>
 			<div class="panel-body">
 				<div class="form-group">
-					<label class="control-label">username</label>
+					<label class="control-label">nome usuario</label>
 					<input type="text" name="username" class="form-control" required="required">
 				</div>
 				<div class="form-group">
-					<label class="control-label">password</label>
+					<label class="control-label">senha</label>
 					<input type="password" name="passwd" class="form-control" required="required">
 				</div>
 				<div class="checkbox">
@@ -85,7 +85,7 @@ include BASE_PATH.'/includes/header.php';
 					?>
 				</div>
 				<?php endif; ?>
-				<button type="submit" class="btn btn-success loginField">Login</button>
+				<button type="submit" class="btn btn-success loginField">Entrar</button>
 			</div>
 		</div>
 	</form>
